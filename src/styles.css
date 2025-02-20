@@ -1,0 +1,143 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0a0a0a; /* Dark background */
+    color: #fff; /* Light text color */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(to right, #1e1e1e, #333);
+    color: #00ff00; /* Neon green for hacker vibe */
+    padding: 40px 0;
+}
+
+header img.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #00ff00; /* Neon green border */
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+header p {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+}
+
+/* Section Styles */
+.section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #111;
+    margin-top: 20px;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #00ff00;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.project {
+    background-color: #222;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.3); /* Neon green shadow */
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    color: #00ff00;
+}
+
+.project p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.project a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ff00;
+    color: #111;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.project a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #00ff00;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    position: relative;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
